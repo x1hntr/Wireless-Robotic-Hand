@@ -1,5 +1,3 @@
-//Receiver Code (Hand) - Mert Arduino and Tech
-
 #include <Servo.h>        //SERVO LIBRARY
 #include <SPI.h>      
 #include "RF24.h"         //NRF24L01 LIBRARY
