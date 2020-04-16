@@ -21,15 +21,15 @@ void setup(){
   //DEFINE OUTPUTS
 
   pinMode(5, OUTPUT);
-  Servo1.attach(15); //A1
-  Servo2.attach(16); //A2
-  Servo3.attach(17); //A3
+  Servo1.attach(15);                //A1
+  Servo2.attach(16);                //A2
+  Servo3.attach(17);                //A3
   
   
   //SERVO VALUES
-  Servo1.write(0); //A1
-  Servo2.write(0); //A2
-  Servo3.write(175); //A3
+  Servo1.write(0);                  //A1
+  Servo2.write(0);                  //A2
+  Servo3.write(175);                //A3
     delay(2000);
 
 Serial.begin(9600);
